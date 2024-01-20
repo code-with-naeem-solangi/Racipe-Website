@@ -1,0 +1,48 @@
+.main-div{
+    background-color: #FFF0ED;
+    padding: 20px;
+    text-align: center;
+}
+.tex-div{
+    width: 40%;
+    margin: auto;
+}
+.inp-email{
+    padding: 10px;
+    width: 65%;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.sbsbtn{
+    background-color: rgb(245, 77, 77);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+@media (max-width:768px){
+    .tex-div{
+        width: 65%;
+    }
+}
+@media (max-width:425px){
+    .tex-div{
+        width: 100%;
+    }
+    .flex{
+        display: block;
+    }
+    .inp-email{
+        width: 90%;
+    }
+    .sbsbtn{
+        width: 95%;
+        margin-top: 15px;
+    }
+}

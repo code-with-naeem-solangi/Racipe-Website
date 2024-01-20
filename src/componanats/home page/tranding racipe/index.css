@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+}
+.avatr {
+  margin-top: 15px;
+}
+.card {
+  margin-bottom: 10px;
+  width: 30%;
+  border: 1px solid gray;
+  text-align: left;
+}
+.per-img {
+  width: 100%;
+  height: 200px;
+}
+.AVATAR {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: orangered;
+}
+.mobile-hide {
+  text-align: right;
+  margin-right: 50px;
+}
+.mbl-hide {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+@media (max-width: 425px) {
+  .mobile-hide {
+    display: none;
+  }
+  .mbl-hide {
+    display: none;
+  }
+  .card {
+    width: 40%;
+    font-size: 10px;
+    
+  }
+}

@@ -1,0 +1,29 @@
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+.cards-specl {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.card-specl {
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.pdg {
+  padding: 10px;
+}
+@media (max-width: 425px) {
+  .cards-specl {
+    display: block;
+  }
+  .card-specl {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}

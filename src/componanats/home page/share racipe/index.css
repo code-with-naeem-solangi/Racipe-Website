@@ -1,0 +1,45 @@
+.widththree {
+  width: 250px;
+  border-radius: 10px;
+  margin: auto;
+}
+.disply-fexs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+.btnspc {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background-color: #b55d51f8;
+  color: white;
+}
+.text-div {
+  margin: auto;
+  width: 650px;
+}
+@media (max-width: 768px) {
+  .widththree {
+    width: 30%;
+  }
+  .text-div {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .disply-fexs {
+    display: block;
+  }
+  .widththree {
+    width: 100%;
+  }
+  .text-div {
+    width: 100%;
+  }
+}

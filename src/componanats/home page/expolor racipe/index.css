@@ -1,0 +1,93 @@
+.card-tab {
+    margin-bottom: 10px;
+    width: 30%;
+    border: 1px solid gray;
+    text-align: left;
+
+  }
+  .cards-tab {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: none;
+  }
+  .per-img-tab {
+    width: 100%;
+    height: 200px;
+  }
+  .AVATAR-tab {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+  }
+.card-lap {
+    margin-bottom: 10px;
+    width: 30%;
+    border: 1px solid gray;
+    text-align: left;
+
+  }
+  .cards-lap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+  }
+  .per-img-lap {
+    width: 100%;
+    height: 200px;
+  }
+  .AVATAR-lap {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+  }
+.card-mbl {
+    margin-bottom: 10px;
+    width: 30%;
+    border: 1px solid gray;
+    text-align: left;
+
+  }
+  .cards-mbl {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: none;
+  
+  }
+  .per-img-mbl {
+    width: 100%;
+    height: 200px;
+  }
+  .AVATAR-mbl {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+  }
+  @media(max-width:768px){
+.cards-tab{
+    display: block;
+    display: flex;
+}
+  .cards-lap{
+    display: none;
+  }
+  }
+  @media(max-width:425px){
+.cards-tab{
+    display: none;
+   
+}
+.cards-lap{
+    display: none;
+  }
+  .cards-mbl{
+    display: block;
+    display: flex;
+    font-size: 10px;
+  }
+  .card-mbl{
+    width: 40%;
+  }
+  }

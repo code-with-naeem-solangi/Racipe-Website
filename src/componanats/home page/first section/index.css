@@ -1,0 +1,162 @@
+body {
+  letter-spacing: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+.pairnt {
+  background-color: wheat;
+  padding-bottom: 20px;
+}
+
+nav {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navitem {
+  display: flex;
+  justify-content: space-between;
+}
+.pdng {
+  margin: 20px;
+  cursor: pointer;
+}
+.btnmrgin {
+  margin-right: 20px;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  background-color: #ebebeb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  background-color: #b55d51f8;
+  color: white;
+}
+.btnspcl {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  width: 120px;
+  background-color: #b55d51f8;
+  color: white;
+}
+.color {
+  color: var(--Primary, rgba(181, 93, 81, 0.97));
+}
+.colorspcl {
+  color: var(--Primary, rgba(181, 93, 81, 0.97));
+  cursor: pointer;
+}
+.disply-fex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+  text-align: left;
+}
+.chaidFirst {
+  width: 30%;
+}
+.width {
+  width: 350px;
+}
+.widths {
+  width: 50px;
+  height: 65px;
+  border: 3px solid white;
+  border-radius: 100%;
+}
+.card-width {
+  width: 230px;
+  height: 150px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 20px 2px 2px solid black;
+  position: relative;
+}
+.display-flextwo {
+  display: flex;
+  width: 250px;
+  align-items: center;
+}
+.mobile-view {
+  display: none;
+}
+.onlyMobileView{
+  display: none;
+  margin-right: 20px;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  background-color: #ebebeb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .navitem {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+    font-size: 40px;
+  }
+  .pairnt {
+    padding-top: 20px;
+  }
+  .pdng {
+    font-size: 20px;
+  }
+  .width {
+    width: 250px;
+  }
+  .chaidFirst {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+ 
+ 
+ 
+  .pdng {
+    font-size: 20px;
+  }
+  .width {
+    display: none;
+  }
+  .card-width{
+    display: none;
+  }
+  .chaidFirst {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+  .onlyMobileView{
+    display: block;
+  }
+  .mobile-flex{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .btnspcl{
+    width: 80px;
+  }
+}
